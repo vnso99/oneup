@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Name": "N/A"
+  },
+  {
+    "Id": 2,
+    "Name": "Everyone"
+  },
+  {
+    "Id": 3,
+    "Name": "Kids"
+  },
+  {
+    "Id": 4,
+    "Name": "Kids Over 10"
+  },
+  {
+    "Id": 5,
+    "Name": "Teens"
+  },
+  {
+    "Id": 6,
+    "Name": "Adults"
+  },
+  {
+    "Id": 7,
+    "Name": "Not Rated"
+  }
+]

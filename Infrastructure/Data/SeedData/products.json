@@ -1,0 +1,57 @@
+[
+  {
+    "Name": "Nintendo Entertainment System",
+    "Description": "The Nintendo Entertainment System (NES) is an 8-bit third-generation home video game console produced, released, and marketed by Nintendo.",
+    "Price": 95,
+    "PictureUrl": "images/products/nes.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1,
+    "GenreId": 1,
+    "RatingId": 1,
+    "NumberOfPlayers": "1-2"
+  },
+  {
+    "Name": "Super Nintendo Entertainment System",
+    "Description": "The Super Nintendo Entertainment System (SNES), also known as the Super NES or Super Nintendo, is a 16-bit home video game console developed by Nintendo.",
+    "Price": 130,
+    "PictureUrl": "images/products/snes.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1,
+    "GenreId": 1,
+    "RatingId": 1,
+    "NumberOfPlayers": "1-2"
+  },
+  {
+    "Name": "Super Mario Bros / Duck Hunt",
+    "Description": "Super Mario Bros./Duck Hunt is a best-selling NES cartridge combining the games Super Mario Bros. and Duck Hunt.",
+    "Price": 13,
+    "PictureUrl": "images/products/smbdh.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1,
+    "GenreId": 2,
+    "RatingId": 2,
+    "NumberOfPlayers": "1-2"
+  },
+  {
+    "Name": "Ghosts 'n Goblins",
+    "Description": "Ghosts 'n Goblins is a run and gun platformer video game series created by Tokuro Fujiwara and developed by Capcom. The first entry in the series was Ghosts 'n Goblins, released as an arcade title on September 19, 1985.",
+    "Price": 18,
+    "PictureUrl": "images/products/gng.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1,
+    "GenreId": 2,
+    "RatingId": 2,
+    "NumberOfPlayers": "1"
+  },
+  {
+    "Name": "Teenage Mutant Ninja Turtles",
+    "Description": "Teenage Mutant Ninja Turtles is a 1989 side-scrolling platform game for the Nintendo Entertainment System released by Konami.",
+    "Price": 17,
+    "PictureUrl": "images/products/tmnt.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2,
+    "GenreId": 4,
+    "RatingId": 2,
+    "NumberOfPlayers": "1"
+  }
+]

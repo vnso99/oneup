@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 1,
+    "Name": "N/A"
+  },
+  {
+    "Id": 2,
+    "Name": "Platformer"
+  },
+  {
+    "Id": 3,
+    "Name": "Shooter"
+  },
+  {
+    "Id": 4,
+    "Name": "Action-Adventure"
+  },
+  {
+    "Id": 5,
+    "Name": "Puzzle"
+  },
+  {
+    "Id": 6,
+    "Name": "Racing"
+  },
+  {
+    "Id": 7,
+    "Name": "Sports"
+  },
+  {
+    "Id": 8,
+    "Name": "Role-Playing"
+  },
+  {
+    "Id": 9,
+    "Name": "Action"
+  },
+  {
+    "Id": 10,
+    "Name": "Horror"
+  },
+  {
+    "Id": 11,
+    "Name": "Strategy"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Name": "Nintendo"
+  },
+  {
+    "Id": 2,
+    "Name": "Konami"
+  },
+  {
+    "Id": 3,
+    "Name": "Enix"
+  },
+  {
+    "Id": 4,
+    "Name": "Capcom"
+  },
+  {
+    "Id": 5,
+    "Name": "Square"
+  },
+  {
+    "Id": 6,
+    "Name": "Namco Bandai"
+  },
+  {
+    "Id": 7,
+    "Name": "Other"
+  }
+]

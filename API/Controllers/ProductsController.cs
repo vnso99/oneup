@@ -6,24 +6,27 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core.Entites;
 using Microsoft.EntityFrameworkCore;
+using Core.Interfaces;
 
 namespace API.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly StoreContext _context;
 
-        public ProductsController(StoreContext context)
+        private readonly IProductRepo _repo;
+
+        public ProductsController(IProductRepo repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await _context.Products.ToListAsync();
+            var products = await _repo.GetProductsAsync();
 
             return Ok(products);
         }
@@ -31,10 +34,39 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _context.Products
-                .FindAsync(id);
+            return await _repo.GetProductByIdAsync(id);
+        }
 
-            return product;
+        [HttpGet("brands")]
+        public async Task <ActionResult<IReadOnlyList<ProductBrand>>> GetProductsBrands()
+        {
+            var brands = await _repo.GetProductsBrandAsync();
+
+            return Ok(brands);
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductsTypes()
+        {
+            var types = await _repo.GetProductsTypeAsync();
+
+            return Ok(types);
+        }
+
+        [HttpGet("genres")]
+        public async Task<ActionResult<IReadOnlyList<Genre>>> GetGenres()
+        {
+            var genres = await _repo.GetGenresAsync();
+
+            return Ok(genres);
+        }
+
+        [HttpGet("ratings")]
+        public async Task<ActionResult<IReadOnlyList<Rating>>> GetRatings()
+        {
+            var ratings = await _repo.GetRatingsAsync();
+
+            return Ok(ratings);
         }
     }
 }
